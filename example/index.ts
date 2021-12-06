@@ -1,6 +1,6 @@
 import { createLibp2p } from "../src";
 
-const TOPIC = "/mesh.aicacia.com/example";
+const TOPIC = "/pubsub.aicacia.com/example";
 
 async function onLoad() {
   const libp2p = await createLibp2p();
